@@ -1,5 +1,9 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h1{
-    margin-left:20px;
+    text-align: center;
 }
 
 .container{
@@ -11,10 +15,10 @@ h1{
     background-color: #5e7ab4;
 }
 
-.input_object{
+.input_weight, .input_height{
     margin-bottom: 16px;
     width: 100%;
-    background-color: #ddd;
+    /*background-color: #ddd;*/
 }
 
 .slider{
@@ -26,12 +30,12 @@ h1{
 .input_box{
     height: 30px;
     width: 90px;
-    margin-left: 20px;
+    margin-top: 20px;
     font-size: 24px;
 }
 
 .button{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     font-size: 18px;
     width: 100%;
     background-color: #1b2845;
@@ -47,5 +51,13 @@ h1{
     padding: 10px;
     margin: 20px;
     align-items: center;
+}
 
+#IMC {
+    background-color: aqua;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
 }
